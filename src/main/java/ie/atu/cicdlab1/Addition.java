@@ -19,7 +19,7 @@ public class Addition {
     @GetMapping("/divide")
     public String getDivision(@RequestParam int num1, int num2){
         if (num2 == 0){
-            return "Cannot divise by 0";
+            return " Cannot divise by 0 ";
         }else {
         int sum = num1 / num2;
         return "The division is " + sum;}
